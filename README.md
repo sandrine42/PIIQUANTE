@@ -1,7 +1,7 @@
 # Projet 6 de la formation Développeur Web d'OpenClassRooms  
 -----------------  
 ## PIIQUANTE  
-![Simplon.co](https://github.com/sandrine42/Piiquante/blob/main/frontend/src/assets/images/flame.png)  
+![Simplon.co](img/logo_piiquante.png)  
 Piiquante se dédie à la création de sauces épicées dont les recettes sont gardées
 secrètes. Pour tirer parti de son succès et générer davantage de buzz, l'entreprise
 souhaite créer une application web dans laquelle les utilisateurs peuvent ajouter
