@@ -77,3 +77,10 @@ app.use(helmet());
 
 // Export de l'application express pour déclaration dans server.js
 module.exports = app;
+
+
+/*
+//Créé un reperpoire pour les images
+const mkdirp = require('mkdirp');
+mkdirp('images').then(created_folder => console.log(`Le repertoire '${created_folder}' a ete cree!`));
+*/

@@ -24,6 +24,6 @@ userSchema.plugin(uniqueValidator);
 //Exportation de ce schéma en tant que modèle Mongoose appelé « User »,
 //le rendant par là même disponible pour notre application Express
 //à l'aide de la méthode  model qui le transforme en un modèle utilisable.
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('user', userSchema);
 
 

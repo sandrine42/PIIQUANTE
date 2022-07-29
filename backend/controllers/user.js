@@ -9,7 +9,7 @@
 const bcrypt = require('bcrypt')
 
 // RImportation du models/User.js, créer avec le schéma MONGOOSE
-const User = require('../models/user');
+const user = require('../models/user');
 
 // Utilisation de jsonwebtoken pour attribuer un token au moment de la connexion
 const jwt = require('jsonwebtoken');
@@ -24,7 +24,7 @@ const jwt = require('jsonwebtoken');
 exports.signup = (req, res, next) => {
     bcrypt.hash(req.body.password, 10)
     .then(hash => {
-        const user = new User({
+        const user = new user({
             email: req.body.email,
             password: hash
         });
@@ -46,7 +46,7 @@ exports.signup = (req, res, next) => {
 //Si ils correspondent, les informations d'identification de notre utilisateur sont valides.
 //Dans ce cas, nous renvoyons une réponse 200 contenant l'ID utilisateur et un token.
 exports.login = (req, res, next) => {
-    User.findOne({ email: req.body.email })
+    user.findOne({ email: req.body.email })
     .then(user => {
         if(!user) {
             return res.status(401).json({ error: 'Paire login/mot de passe incorrecte'})
