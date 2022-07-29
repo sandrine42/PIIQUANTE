@@ -54,11 +54,14 @@ https://github.com/sandrine42/Piiquante.git
 
 #### E. Démarrer le serveur sur le dossier backend (Listening on port 3000)
 
-* cd backend
+* cd backend  
+* npm install  
+* npm start
 * nodemon server
 
 #### F. Démarrer le serveur sur le dossier frontend (http://localhost:4200/)
 
 * cd frontend  
+* npm install
 * npm start
 
