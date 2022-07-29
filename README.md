@@ -2,6 +2,7 @@ Projet 6 de la formation Développeur Web d'OpenClassRooms
 
 PIIQUANTE
 ![Cover](https://https://github.com/sandrine42/Piiquante/blob/main/frontend/src/assets/images/flame.png)
+flame.png
 
 
 Piiquante se dédie à la création de sauces épicées dont les recettes sont gardées
