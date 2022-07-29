@@ -1,12 +1,16 @@
 # Projet 6 de la formation Développeur Web d'OpenClassRooms  
 -----------------  
-## PIIQUANTE  
-![Simplon.co](https://github.com/sandrine42/Piiquante/blob/main/frontend/src/assets/images/flame.png)  
+## PIIQUANTE
+<p align="center">
+<img width="380" height="173" ![Piiquante] src = "https://github.com/sandrine42/Piiquante/blob/main/img/logo_piiquante.png" >
+</p>
+
 Piiquante se dédie à la création de sauces épicées dont les recettes sont gardées
 secrètes. Pour tirer parti de son succès et générer davantage de buzz, l'entreprise
 souhaite créer une application web dans laquelle les utilisateurs peuvent ajouter
 leurs sauces préférées et liker ou disliker les sauces ajoutées par les autres.  
 ## Création d’une API sécurisée pour une application d'évaluation  
+
 ### Technologies utilisées :  
 * Node.JS v16.16.0  
 * "bcrypt": "^5.0.1"  
@@ -57,5 +61,4 @@ https://github.com/sandrine42/Piiquante.git
 
 * cd frontend  
 * npm start
-
 
