@@ -54,7 +54,7 @@ https://github.com/sandrine42/Piiquante.git
 sans le fichier.env,  
 vous devrez donc remplacer :  
 `DB_URI=mongodb://<Adresse du serveur>:<Port>/<Nom base de donnees>`  
-par le lien vers votre base de données
+par l'adresse de votre base de données
 
 #### E. Démarrer le serveur sur le dossier backend (Listening on port 3000)
 
