@@ -49,11 +49,9 @@ serveur front-end sans avoir recours à npm install
 
 #### C. Créer un dossier PIIQUANTE dans lequel vous déposerez le dossier frontent et le dossier backend
 
-#### D. Vous trouverez le projet PIIQUANTE complet (frontend et backend) à l'adresse suivante
-https://github.com/sandrine42/Piiquante.git
-sans le fichier.env,  
-vous devrez donc remplacer :  
-`DB_URI=mongodb://<Adresse du serveur>:<Port>/<Nom base de donnees>`  
+#### D. Vous trouverez le projet PIIQUANTE complet (frontend et backend) à l'adresse suivante (sans le fichier.env)
+https://github.com/sandrine42/Piiquante.git 
+vous devrez donc remplacer : `DB_URI=mongodb://<Adresse du serveur>:<Port>/<Nom base de donnees>`  
 par l'adresse de votre base de données
 
 #### E. Démarrer le serveur sur le dossier backend (Listening on port 3000)
