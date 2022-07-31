@@ -51,7 +51,8 @@ serveur front-end sans avoir recours à npm install
 
 #### D. Vous trouverez le projet PIIQUANTE complet (frontend et backend) à l'adresse suivante
 https://github.com/sandrine42/Piiquante.git
-sans le fichier.env, vous devrez donc remplacer  
+sans le fichier.env,  
+vous devrez donc remplacer :  
 `DB_URI=mongodb://<Adresse du serveur>:<Port>/<Nom base de donnees>`  
 par le lien vers votre base de données
 
